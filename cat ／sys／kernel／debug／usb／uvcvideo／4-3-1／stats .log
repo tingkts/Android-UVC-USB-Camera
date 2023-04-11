@@ -1,0 +1,24 @@
+aiot8395p1_64_bsp:/ # cd /sys/kernel/debug/usb/uvcvideo/
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo #
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo # ls -al
+total 0
+drwxr-xr-x 3 root root 0 1970-01-01 00:00 .
+drwxr-xr-x 7 root root 0 1970-01-01 00:00 ..
+drwxr-xr-x 2 root root 0 2010-01-01 00:00 4-3-1
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo # cd 4-3-1/
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo/4-3-1 #
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo/4-3-1 # ls -al
+total 0
+drwxr-xr-x 2 root root 0 2010-01-01 00:00 .
+drwxr-xr-x 3 root root 0 1970-01-01 00:00 ..
+-r--r--r-- 1 root root 0 2010-01-01 00:00 stats
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo/4-3-1 # cat stats
+frames:  0
+packets: 0
+empty:   0
+errors:  0
+invalid: 0
+pts: 0 early, 0 initial, 0 ok
+scr: 0 count ok, 0 diff ok
+sof: 0 <= sof <= 0, freq 0.000 kHz
+aiot8395p1_64_bsp:/sys/kernel/debug/usb/uvcvideo/4-3-1 #

@@ -1,0 +1,25 @@
+From 0b710c4b374c34390a1017bb1b58d0bb582b36e3 Mon Sep 17 00:00:00 2001
+From: tingsung <tingsung@msi.com>
+Date: Fri, 26 May 2023 13:25:15 +0800
+Subject: [PATCH] DON'T MERGE: buildin prebuild camera2basic
+
+---
+ device.mk | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/device.mk b/device.mk
+index 4ebc334..01bb9e2 100644
+--- a/device.mk
++++ b/device.mk
+@@ -195,6 +195,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
+     persist.sys.hdmi.keep_awake=false \
+     ro.hdmi.device_type=4
+ 
++PRODUCT_PACKAGES += Camera2Basicc
++
+ $(call inherit-product, device/mediatek/mt8195/device.mk)
+ 
+ $(call inherit-product-if-exists, vendor/mediatek/libs/$(MTK_TARGET_PROJECT)/device-vendor.mk)
+-- 
+2.17.1
+
